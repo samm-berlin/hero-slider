@@ -377,8 +377,8 @@
   }
 
   .hero-slider .big-slide.trans-mobile  {
-    width: calc(100% - var(--image-width));
-    min-width: 200px;  
+    width: min(calc(100% - 159px), calc(100% - var(--image-width)));
+    -min-width: 200px; 
   }
 
   .hero-slider .slide-0 .big-slide.trans-mobile {
