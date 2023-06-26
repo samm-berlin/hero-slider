@@ -325,7 +325,7 @@
   .hero-slider {
     height: calc(100vh - 80px);
     min-height: 732px;
-    --image-width: calc(((100vh - 80px) * 0.15 * 1.36))
+    --image-width: max(calc(732px * 0.15 * 1.36), calc(((100vh - 80px) * 0.15 * 1.36)));
   }
 
   .hero-slider .hide-mobile {
