@@ -280,6 +280,10 @@
     transition: transform 2s ease-in-out;
     -webkit-transition: transform 2s linear;
   }
+
+  .hide-desktop {
+    display: none;
+  }
 }
 
 @media screen and (min-width: 781px) and (max-width: 1024px) {
